@@ -94,7 +94,7 @@ class Mainstate extends State<App>{
         actions: <Widget>[
           GestureDetector(//GestureDetector赋予了widget回调功能（触发点击等）
             onTap:  (){
-//              Navigator.pushNamed(context, "search");
+              Navigator.pushNamed(context, "search");
             },
             child: Icon(
               Icons.search,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'app.dart';
 import 'loading.dart';
+import './search.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
  void main() => runApp(MaterialApp(
    debugShowCheckedModeBanner : false,
@@ -16,7 +17,7 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
          withZoom: true, //是否缩放
          withLocalStorage: true, // 是否本地存储
      ),
-      //"search": (BuildContext context) => new search(),
+      "search": (BuildContext context) => new search(),
 
    },
    home: new loadingPage(),
