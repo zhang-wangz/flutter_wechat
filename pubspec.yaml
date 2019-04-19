@@ -29,4 +29,10 @@ flutter:
     - images/contact_list_pressed.png
     - images/weixin_normal.png
     - images/weixin_pressed.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
 
+    #menu
+    - images/icon_menu_addfriend.png
+    - images/icon_menu_group.png
+    - images/icon_menu_scan.png
