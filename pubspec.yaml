@@ -20,3 +20,13 @@ flutter:
   assets:
 
     - images/loading.jpg
+
+
+    #四个tab切换图片
+    - images/find_normal.png
+    - images/find_pressed.png
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
+    - images/weixin_normal.png
+    - images/weixin_pressed.png
+
