@@ -1,0 +1,22 @@
+name: wechat
+description: A new Flutter application.
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_webview_plugin: "^0.2.1+2"
+  date_format: "^1.0.4"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
+    - images/loading.jpg
