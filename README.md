@@ -1,9 +1,9 @@
 # wechat
 
-A new Flutter application to start imitate the vx. '\n'
-if u want do it，welcome join me
-please contact me at email 745268436@qq.com.
-I will see it in the eveing everyday.
+- A new Flutter application to start imitate the vx. 
+- if u want do it，welcome join me
+- please contact me at email 745268436@qq.com.
+- I will see it in the eveing everyday.
 
 
 ![目前效果图](https://github.com/zhang-wangz/fluttervx/blob/master/style.png)
