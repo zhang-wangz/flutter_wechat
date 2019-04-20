@@ -18,7 +18,7 @@ class SearchState extends State<search>{
     return focusNode;
   }
 
-  //还没看懂//回调
+
   _getText(String text){
       return TouchCallBack(
         isfeed: false,
@@ -26,7 +26,7 @@ class SearchState extends State<search>{
         child: Text(
           text,
           style: TextStyle(
-            fontSize: 14.0,color: Colors.black,
+            fontSize: 14.0,color: Colors.green,
           ),
         ),
       );
@@ -137,8 +137,8 @@ class SearchState extends State<search>{
                 mainAxisAlignment: MainAxisAlignment.spaceAround,//与父组件一致
                 children: <Widget>[
                   _getText("朋友圈"),
-                  _getText("朋友圈"),
-                  _getText("朋友圈"),
+                  _getText("文章"),
+                  _getText("公众号"),
 
 
                 ],
@@ -150,9 +150,9 @@ class SearchState extends State<search>{
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  _getText("朋友圈"),
-                  _getText("朋友圈"),
-                  _getText("朋友圈"),
+                  _getText("小程序"),
+                  _getText("音乐"),
+                  _getText("表情"),
 
 
 

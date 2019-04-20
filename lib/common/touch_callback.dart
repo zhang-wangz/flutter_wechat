@@ -30,12 +30,16 @@ class TouchState extends State<TouchCallBack>{
         child: widget.child,
       ),
       onTap: widget.onPressed,
-      onPanDown: (d){
+
+
+      onPanDown: (d){//与屏幕接触时触发
         if(widget.isfeed == false) return ;
         setState(() {
           color = widget.background;
         });
       },
+
+      //理解
       onPanCancel: (){
         setState(() {
           color = Colors.transparent;
