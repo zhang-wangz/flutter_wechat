@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+import './chat/message_data.dart';
+import './chat/message_page.dart';
+import './chat/message_item.dart';
 
 enum ItemType { GroupChat, AddFriends, Qrcode, Payments, Help}
 
@@ -11,19 +13,19 @@ class App extends StatefulWidget{
 class Mainstate extends State<App>{
 
   var _currentIndex = 0;
-//  MessagePage message;
+  MessagePage message;
 //  Contacts contacts;
 //  Found found;
 //  personal me;
 
-//  void currentPage(){
-//    switch(_currentIndex) {
-//      case 0:
-//        if(message == null){
-//            message = new MessagePage();
-//        }
-//        return message;
-//
+  currentPage() {
+    switch (_currentIndex) {
+      case 0:
+        if (message == null) {
+          message = new MessagePage();
+        }
+        return message;
+
 //      case 1:
 //        if(contacts == null){
 //          contacts = new Contacts();
@@ -41,9 +43,9 @@ class Mainstate extends State<App>{
 //          me = new personal();
 //        }
 //        return me;
-//
-//      default;
-//    }
+      default:;
+    }
+  }
 
 
   _popupMenuItem (String title,{String imagePath,IconData icondata})//两者选一个，进行展示
@@ -87,7 +89,6 @@ class Mainstate extends State<App>{
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: new Text("微信"),
@@ -229,7 +230,7 @@ class Mainstate extends State<App>{
         ],
       ),
 
-//      body:currentPage(),
+      body:currentPage(),
     );
   }
 
