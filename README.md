@@ -6,7 +6,8 @@
 - I will see it in the eveing everyday.
 
 
-![目前效果图](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
+![目前效果图1](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
+![目前效果图2](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
 
 
 ## Getting Started
