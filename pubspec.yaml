@@ -36,3 +36,8 @@ flutter:
     - images/icon_menu_addfriend.png
     - images/icon_menu_group.png
     - images/icon_menu_scan.png
+
+
+    - images/icon_addfriend.png
+    - images/icon_groupchat.png
+    - images/icon_public.png
