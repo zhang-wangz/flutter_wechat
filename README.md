@@ -7,7 +7,7 @@
 
 
 ![目前效果图1](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
-![目前效果图2](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
+![目前效果图2](https://github.com/zhang-wangz/fluttervx/blob/master/Snip20190420_23.png)
 
 
 ## Getting Started
