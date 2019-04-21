@@ -6,7 +6,9 @@
 - I will see it in the eveing everyday.
 
 
-![目前效果图](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
+- ![目前效果图1](https://github.com/zhang-wangz/fluttervx/blob/master/style2.png)
+
+- ![目前效果图2](https://github.com/zhang-wangz/fluttervx/blob/master/Snip20190420_23.png)
 
 
 ## Getting Started
@@ -22,4 +24,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
-//在此感谢 亢少龙老师的帮助
+//在此感谢 亢少军老师的帮助
