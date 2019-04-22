@@ -12,72 +12,73 @@ class ContactVO{
 List<ContactVO> contactData = [
   new ContactVO(
     seationKey:'A',
-    name:'A家具销售',
+    name:'A销售',
     avatarUrl: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3030520325,1670258034&fm=26&gp=0.jpg',
   ),
   new ContactVO(
       seationKey: 'A',
-      name: '阿黄',
+      name: 'A律师',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555854716423&di=1549243c73b8abefe1f37e5ebdcb1705&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171220%2Fdee4135982524ac4b0d14b239bcd1f7c.jpeg'),
   new ContactVO(
       seationKey: 'B',
-      name: '波波',
+      name: '博士',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540441383345&di=41a9c62adb0702595cbeab1eb7935f66&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F3b292df5e0fe992532fd5c7e3fa85edf8db1712e.jpg'),
   new ContactVO(
       seationKey: 'C',
-      name: '陈可',
+      name: '陈越',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529317279409&di=c04fca2322c5fd92860d5445ac67f5ba&imgtype=0&src=http%3A%2F%2Fimg.duoziwang.com%2F2018%2F07%2F201812398230049.jpg'),
   new ContactVO(
       seationKey: 'C',
-      name: '参谋长',
+      name: '参赛者',
       avatarUrl:
       ''),
   new ContactVO(
       seationKey: 'D',
-      name: '杜一',
+      name: '杜甫',
+      seationKey: 'D',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529317279343&di=a85a9844a259f97a0a3349ad0ca0bdfb&imgtype=0&src=http%3A%2F%2Fpic.qqtn.com%2Fup%2F2017-12%2F2017120617245278991.jpg'),
   new ContactVO(
       seationKey: 'D',
-      name: '东方红',
+      name: '东皇',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529317279342&di=7eae385ce6b52688ec1ae23efb6df2b6&imgtype=0&src=http%3A%2F%2Fpic.qqtn.com%2Fup%2F2018-2%2F2018020913274626058.jpg'),
   new ContactVO(
       seationKey: 'D',
-      name: '大表哥',
+      name: '大舅哥',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529317279332&di=4ce7a79c1969de3afd25ff12415a9a86&imgtype=0&src=http%3A%2F%2Fimg.duoziwang.com%2F2018%2F07%2F201812398230061.jpg'),
   new ContactVO(
       seationKey: 'F',
-      name: '飞机',
+      name: '飞虎',
       avatarUrl:
       'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=889175251,2001539136&fm=27&gp=0.jpg'),
   new ContactVO(
       seationKey: 'G',
-      name: '高大上',
+      name: '高楼',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529317923619&di=c7c1e8e86f028a98f5f1287f08185dda&imgtype=0&src=http%3A%2F%2Fpic.qqtn.com%2Fup%2F2017-12%2F15131353255776823.jpg'),
   new ContactVO(
       seationKey: 'H',
-      name: 'herbie',
+      name: '昊仁',
       avatarUrl:
       'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4174685487,4080018153&fm=11&gp=0.jpg'),
   new ContactVO(
       seationKey: 'H',
-      name: '何小冉',
+      name: '何雪',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529318082533&di=12e4f3d6b8bff6da451502fef002c1c1&imgtype=0&src=http%3A%2F%2Fpic.qqtn.com%2Fup%2F2018-6%2F2018060510054743138.jpg'),
   new ContactVO(
       seationKey: 'J',
-      name: '姬如雪',
+      name: '姬画',
       avatarUrl:
       'http://img5.duitang.com/uploads/item/201609/26/20160926124027_vxRkt.jpeg'),
   new ContactVO(
       seationKey: 'J',
-      name: 'JC',
+      name: '冀东',
       avatarUrl:
       'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555854716423&di=1549243c73b8abefe1f37e5ebdcb1705&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171220%2Fdee4135982524ac4b0d14b239bcd1f7c.jpeg'),
   new ContactVO(
