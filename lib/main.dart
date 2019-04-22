@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
 import 'app.dart';
 import 'loading.dart';
 import './search.dart';
+import './found/found.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
  void main() => runApp(MaterialApp(
    debugShowCheckedModeBanner : false,
@@ -9,7 +11,7 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
    theme:  mdefalutTheme,
    routes: <String, WidgetBuilder>{
      "app":(BuildContext context) => new App(),
-     "/friends": (_) => new WebviewScaffold(
+     "friends": (_) => new WebviewScaffold( //插件故障，等待修复
          url: "https://weixin.qq.com/",
          appBar: new AppBar(
            title: new Text("微信朋友圈"),

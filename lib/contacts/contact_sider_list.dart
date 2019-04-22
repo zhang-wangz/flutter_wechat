@@ -96,9 +96,9 @@ class ContactState extends State<ContactSiderList> implements SectionIndexer{
           ),
 
 
-          //排序字母 定位最右边
+          //排序字母 定位最右边，positioned用来定位
           Positioned(
-            right: 0.0,
+            right: 0.0,//距离最右边为0
             child: Container(
               alignment: Alignment.center,
               height: MediaQuery.of(context).size.height,  //计算=整个容器的高度
